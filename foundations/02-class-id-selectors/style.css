@@ -1,0 +1,21 @@
+.odd {
+    background-color: rgb(247, 168, 181);
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.odd.bigger{
+    font-size: 38px;
+}
+
+/* Selecting ID */
+#second {
+    color: blue;
+    font-size: 48px;
+}
+
+#green {
+    background-color: rgb(80, 204, 80);
+    font-size: 38px;
+    font-weight: bold;
+}
