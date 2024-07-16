@@ -24,3 +24,46 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/* MY Solution  - spreads over entire screen while there is a max width restriction on contents */
+
+/* .title, .herbs{
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.text {
+  width: 200px;
+  text-align: center;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.herbs {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.image-text {
+  max-width: 200px;
+}
